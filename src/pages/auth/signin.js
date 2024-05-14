@@ -17,7 +17,7 @@ const SignIn = () => {
 
     if (!result.error) {
       // Rediriger vers la page sécurisée ou rester sur la page actuelle
-      window.location.href = '/protected';
+      window.location.href = '/compte-bancaire-sensible';
     } else {
       // Gérer l'erreur d'authentification
       console.error(result.error);
